@@ -3,11 +3,11 @@ html body {
   background-color: #000;
   font-family: 'Raleway'; }
 
-/* line 6, ../../Users/MAGN0811/Documents/aspitlab/web/aarhus_2_sep_udkast/css/style.scss */
-#particles-js {
-  height: auto;
-  width: 100%; }
-
+/*
+        #particles-js {
+            height: auto;
+            width: 100%;
+        } */
 /* line 11, ../../Users/MAGN0811/Documents/aspitlab/web/aarhus_2_sep_udkast/css/style.scss */
 hr {
   margin: 2% 0; }
