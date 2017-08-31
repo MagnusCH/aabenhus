@@ -12,6 +12,11 @@
             margin: 2% 0;
         }
         
+        p {
+            color: darkgray;
+            text-align: right;
+        }
+        
         //header
         header {
             margin: 3% auto 0 auto;
@@ -27,6 +32,10 @@
             span {
                 color: darkgrey;
             }
+            /* video {
+                width: 800px;
+                height: 400px;
+            } */
         }
         
         //header end
@@ -93,5 +102,6 @@
             p {
                 color: white;
                 margin: 0 0 2% 0;
+                text-align: center;
             }
         }

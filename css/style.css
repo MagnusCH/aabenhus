@@ -1,4 +1,4 @@
-/* line 1, ../../Users/MAGN0811/Documents/aspitlab/web/aarhus_2_sep_udkast/css/style.scss */
+/* line 1, aabenhus/css/style.scss */
 html body {
   background-color: #000;
   font-family: 'Raleway'; }
@@ -8,82 +8,92 @@ html body {
             height: auto;
             width: 100%;
         } */
-/* line 11, ../../Users/MAGN0811/Documents/aspitlab/web/aarhus_2_sep_udkast/css/style.scss */
+/* line 11, aabenhus/css/style.scss */
 hr {
   margin: 2% 0; }
 
-/* line 16, ../../Users/MAGN0811/Documents/aspitlab/web/aarhus_2_sep_udkast/css/style.scss */
+/* line 15, aabenhus/css/style.scss */
+p {
+  color: darkgray;
+  text-align: right; }
+
+/* line 21, aabenhus/css/style.scss */
 header {
   margin: 3% auto 0 auto;
   max-width: 1250px;
   width: 100%;
   background-color: black;
-  color: white; }
-  /* line 22, ../../Users/MAGN0811/Documents/aspitlab/web/aarhus_2_sep_udkast/css/style.scss */
+  color: white;
+  /* video {
+                width: 800px;
+                height: 400px;
+            } */ }
+  /* line 27, aabenhus/css/style.scss */
   header img {
     width: 100%;
     height: auto; }
-  /* line 27, ../../Users/MAGN0811/Documents/aspitlab/web/aarhus_2_sep_udkast/css/style.scss */
+  /* line 32, aabenhus/css/style.scss */
   header span {
     color: darkgrey; }
 
-/* line 34, ../../Users/MAGN0811/Documents/aspitlab/web/aarhus_2_sep_udkast/css/style.scss */
+/* line 43, aabenhus/css/style.scss */
 main {
   margin: auto;
   background-color: black;
   max-width: 1250px;
   width: 100%; }
-  /* line 40, ../../Users/MAGN0811/Documents/aspitlab/web/aarhus_2_sep_udkast/css/style.scss */
+  /* line 49, aabenhus/css/style.scss */
   main nav {
     margin: auto;
     width: 100%;
     border-top: 1px solid white;
     border-bottom: 1px solid white; }
-    /* line 45, ../../Users/MAGN0811/Documents/aspitlab/web/aarhus_2_sep_udkast/css/style.scss */
+    /* line 54, aabenhus/css/style.scss */
     main nav ul {
       margin: 0;
       padding: 0; }
-    /* line 49, ../../Users/MAGN0811/Documents/aspitlab/web/aarhus_2_sep_udkast/css/style.scss */
+    /* line 58, aabenhus/css/style.scss */
     main nav li {
       list-style: none;
       margin: 3% 0;
       line-height: 20px;
       transition: 1s; }
-    /* line 55, ../../Users/MAGN0811/Documents/aspitlab/web/aarhus_2_sep_udkast/css/style.scss */
+    /* line 64, aabenhus/css/style.scss */
     main nav li:hover {
       margin-left: 3%; }
-    /* line 58, ../../Users/MAGN0811/Documents/aspitlab/web/aarhus_2_sep_udkast/css/style.scss */
+    /* line 67, aabenhus/css/style.scss */
     main nav a {
       text-decoration: none;
       color: darkgrey;
       font-size: 20px; }
-    /* line 63, ../../Users/MAGN0811/Documents/aspitlab/web/aarhus_2_sep_udkast/css/style.scss */
+    /* line 72, aabenhus/css/style.scss */
     main nav #current {
       color: cadetblue;
       margin-left: 3%; }
-  /* line 69, ../../Users/MAGN0811/Documents/aspitlab/web/aarhus_2_sep_udkast/css/style.scss */
+  /* line 78, aabenhus/css/style.scss */
   main section {
     border-top: 1px solid white; }
-  /* line 73, ../../Users/MAGN0811/Documents/aspitlab/web/aarhus_2_sep_udkast/css/style.scss */
+  /* line 82, aabenhus/css/style.scss */
   main article video {
     width: 800px;
     height: 450px; }
-  /* line 78, ../../Users/MAGN0811/Documents/aspitlab/web/aarhus_2_sep_udkast/css/style.scss */
+  /* line 87, aabenhus/css/style.scss */
   main h2 {
     color: white; }
-  /* line 81, ../../Users/MAGN0811/Documents/aspitlab/web/aarhus_2_sep_udkast/css/style.scss */
+  /* line 90, aabenhus/css/style.scss */
   main h3 {
     color: darkgrey; }
 
-/* line 88, ../../Users/MAGN0811/Documents/aspitlab/web/aarhus_2_sep_udkast/css/style.scss */
+/* line 97, aabenhus/css/style.scss */
 footer {
   margin: auto;
   margin-top: 1%;
   max-width: 1250px;
   width: 100%; }
-  /* line 93, ../../Users/MAGN0811/Documents/aspitlab/web/aarhus_2_sep_udkast/css/style.scss */
+  /* line 102, aabenhus/css/style.scss */
   footer p {
     color: white;
-    margin: 0 0 2% 0; }
+    margin: 0 0 2% 0;
+    text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
